@@ -1,0 +1,6 @@
+.product {
+  display: flex;
+}
+.product-name {
+  color: blue;
+}
