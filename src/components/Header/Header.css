@@ -1,0 +1,13 @@
+.header {
+  text-align: center;
+}
+
+.logo {
+  height: 60px;
+  margin: 30px auto;
+}
+
+.nav {
+  background-color: black;
+  color: white;
+}
