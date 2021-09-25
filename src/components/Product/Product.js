@@ -2,7 +2,7 @@ import React from "react";
 import "./Product.css";
 
 const Product = (props) => {
-  console.log(props);
+  // console.log(props);
 
   const { name, category, img, seller, price, stock } = props.product;
   return (
@@ -27,6 +27,7 @@ const Product = (props) => {
         >
           Add to Cart
         </button>
+        {/* evabe onclick na dile undefined dekhabe */}
       </div>
     </div>
   );
