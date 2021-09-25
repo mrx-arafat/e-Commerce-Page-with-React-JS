@@ -2,7 +2,19 @@
   display: flex;
   border-bottom: 1px solid lightgray;
   margin-right: 5px;
+  padding: 10px;
 }
 .product-name {
   color: blue;
+}
+
+.btn-regular {
+  background-color: goldenrod;
+  height: 35px;
+  width: 155px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
