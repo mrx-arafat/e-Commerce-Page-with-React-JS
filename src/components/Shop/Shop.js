@@ -19,7 +19,6 @@ const Shop = () => {
     const newCart = [...cart, product];
     setCart(newCart);
     //save to local storage
-
     addToDb(product.key);
   };
 
