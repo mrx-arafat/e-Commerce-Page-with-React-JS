@@ -15,19 +15,18 @@
   justify-content: center;
   align-items: center;
 }
-.nav li {
-  list-style: none;
-  margin: 15px;
-}
 
-.nav li a {
+.li {
+  margin: 15px;
+  padding: 10px;
   text-decoration: none;
   color: white;
   transition: 0.5s;
 }
 
-.nav li a:hover {
+.li:hover {
   background-color: lightgray;
-  padding: 15px 20px;
+  border-radius: 20px;
+  padding: 20px;
   color: #000;
 }
